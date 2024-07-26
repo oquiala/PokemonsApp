@@ -1,0 +1,20 @@
+
+.container {
+  margin: 0 5%;
+}
+
+.logo {
+  width: 250px;
+}
+
+.image {
+
+  display:inline-block;
+  background:
+    linear-gradient(217deg, #ce2292a4, #ffffff00 70.71%),
+    linear-gradient(127deg, #6d22ce9a, #ffffff00 70.71%),
+    linear-gradient(336deg, #0c3da7c2, #ffffff00 70.71%);
+
+  border-radius: 35% 15rem / 100px 30%;
+  box-shadow: inset 0px -5px 10px 0px #39305f;
+}

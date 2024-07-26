@@ -1,0 +1,76 @@
+
+  <!-- <p-panel header="Pokemons">
+
+      <div class="grid">
+
+        @for (poke of pokemons; track $index) {
+          <div class="col-12 md:col-3 sm:col-2 lg:col-4">
+            <p-panel header="{{ poke.name | uppercase }}">
+              <p-card>
+                <ng-template pTemplate="header">
+                  <img class="image" src="{{ poke.image }}" alt="{{ poke.name }}" (click)="pokemonDetail(poke.id)" />
+                </ng-template>
+                <b>Category:</b> {{ poke.category }} <br>
+                <b>Type:</b> {{ poke.type }} <br>
+                <b>Skill:</b> {{ poke.skill }} <br>
+                <b>Weakness:</b> {{ poke.weakness }} <br>
+                <ng-template pTemplate="footer">
+                  <div class="flex gap-3 mt-1">
+                      <p-button icon="pi pi-pencil" severity="info"/>
+                      <p-button icon="pi pi-trash" severity="danger"/>
+                  </div>
+              </ng-template>
+              </p-card>
+            </p-panel>
+          </div>
+        }
+
+      </div>
+  </p-panel> -->
+
+  <div class="column gap-1">
+
+    <button
+        type="button"
+        pButton
+        icon="pi pi-plus"
+        severity="success"
+        label="Add"
+        [raised]="true"
+        (click)="toggleAddPopup()"
+        class="add-product-btn"
+      ></button>
+
+    <div class="row wrap gap-1">
+      @for (poke of pokemons; track $index) {
+        <div class="col-12 md:col-3 sm:col-2 lg:col-4 wrapper">
+            <p-card>
+              <ng-template pTemplate="header">
+                <img class="image" src="{{ poke.image }}" alt="{{ poke.name }}" (click)="pokemonDetail(poke.id)" />
+              </ng-template>
+              <b>Name:</b> {{ poke.name | uppercase }} <br>
+              <b>Category:</b> {{ poke.category }} <br>
+              <b>Type:</b> {{ poke.type }} <br>
+              <b>Skill:</b> {{ poke.skill }} <br>
+              <b>Weakness:</b> {{ poke.weakness }} <br>
+              <ng-template pTemplate="footer">
+                <div class="flex gap-3 mt-1">
+                    <p-button icon="pi pi-pencil" severity="info"/>
+                    <p-button icon="pi pi-trash" severity="danger"/>
+                </div>
+            </ng-template>
+            </p-card>
+        </div>
+      }
+    </div>
+
+    <p-paginator
+      (onPageChange)="onPageChange($event)"
+      [first]="first"
+      [rows]="rows"
+      [totalRecords]="totalRecords"
+      [rowsPerPageOptions]="[5, 10, 20]" />
+
+  </div>
+
+

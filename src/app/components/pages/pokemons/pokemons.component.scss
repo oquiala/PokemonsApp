@@ -1,0 +1,44 @@
+
+img {
+  aspect-ratio: 1;
+  object-fit: contain;
+  width: 100%;
+  padding: 5px;
+}
+
+.image:hover {
+  box-shadow: rgba(155, 99, 192, 0.418) 0px 0px 0px 5px inset;
+  cursor: pointer;
+}
+
+.add-product-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+  box-shadow: 0 0 10px 2.5px #ab98b1;
+}
+
+.wrapper {
+  width: 350px;
+
+  .title {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: rgb(63, 62, 62);
+    margin: 0;
+  }
+
+  .price-label {
+    font-weight: 400;
+    font-size: 1rem;
+    color: dimgray;
+  }
+
+  .price {
+    font-weight: 600;
+    font-size: 1rem;
+    color: dimgray;
+  }
+
+}

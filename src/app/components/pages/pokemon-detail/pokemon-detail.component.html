@@ -1,0 +1,28 @@
+
+<div class="grid mt-3" *ngIf="poke">
+
+  <div class="col-12 md:col-6 lg:col-6" >
+    <p-panel header="{{ poke.name | uppercase }}">
+      <p-card>
+        <ng-template pTemplate="header">
+          <img src="{{ poke.image }}" alt="{{ poke.name }}" />
+        </ng-template>
+      </p-card>
+    </p-panel>
+  </div>
+
+  <div class="col-12 md:col-6 lg:col-6">
+    <p-panel header="{{ poke.name | uppercase }}">
+      <p-card>
+        <b>Description: </b> {{poke.description}} <br>
+        <b>Category: </b> {{poke.category}} <br>
+        <b>Type: </b> {{poke.type}} <br>
+        <b>Skill: </b> {{poke.skill}} <br>
+        <b>Weakness: </b> {{poke.weakness}} <br>
+        <b>Raiting: </b> {{poke.raiting}} <br><br>
+        <p-button class="mt-3" icon="pi pi-arrow-circle-left" title="Back" styleClass="p-button-warning" (click)="Volver()" ></p-button>
+      </p-card>
+    </p-panel>
+  </div>
+
+</div>

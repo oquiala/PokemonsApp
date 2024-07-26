@@ -1,0 +1,19 @@
+
+:host ::ng-deep .p-menubar {
+  background: rgb(206,34,147);
+  background: linear-gradient(90deg, #6dfcc0cc, #7dcfffe8, #ff87d5d8, #d5a5fcdc, #86cfffda, #6bf5bccb);
+  background-size: 400% 400%;
+  animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+	0% {background-position: 0% 50%;}
+  50% {background-position: 50% 100%;}
+	100% {background-position: 0% 50%;}
+}
+
+.logo {
+  height: 50px;
+  object-fit: contain;
+  margin-right: 10px;
+}
