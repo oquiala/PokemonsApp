@@ -1,0 +1,172 @@
+{
+  "pokemons": [
+    {
+      "id": "pk-bulbasaur",
+      "name": "Bulbasaur",
+      "description": "Tras nacer, crece alimentándose durante un tiempo de los nutrientes que contiene el bulbo de su lomo.",
+      "category": "Semilla",
+      "image": "assets/images/bulbasaur.png",
+      "type": "Planta, Veneno",
+      "raiting": 3,
+      "skill": "Espesura",
+      "weakness": "Fuego, Hielo, Volador, Psíquico"
+
+    },
+    {
+      "id": "pk-charmander",
+      "name": "Charmander",
+      "description": "La llama de su cola indica su fuerza vital. Si está débil, la llama arderá más tenue.",
+      "category": "Lagartija",
+      "image": "assets/images/charmander.png",
+      "type": "Fuego",
+      "raiting": 4,
+      "skill": "Mar de llamas",
+      "weakness": "Agua, Tierra, Roca"
+    },
+    {
+      "id": "pk-squirtle",
+      "name": "Squirtle",
+      "description": "Tiene un caparazón resistente; muchos objetos rebotarán en el. Tiene una forma hidrodinámica que le da mayor velocidad al nadar.",
+      "category": "Tortuguita",
+      "image": "assets/images/squirtle.png",
+      "type": "Agua",
+      "raiting": 3,
+      "skill": "Torrente",
+      "weakness": "Planta, Electrico"
+    },
+    {
+      "id": "pk-pikachu",
+      "name": "Pikachu",
+      "description": "Cuando se enfada descarga la energía que almacena en el interior de las bolsas de las mejillas.",
+      "category": "Ratón",
+      "image": "assets/images/pikachu.png",
+      "type": "Electrico",
+      "raiting": 3,
+      "skill": "Electricidad Estática",
+      "weakness": "Tierra"
+    },
+    {
+      "id": "pk-jigglypuff",
+      "name": "Jigglypuff",
+      "description": "Cuando le tiemblan sus adorables ojos, entona una melodía agradable y misteriosa con la que duerme a sus enemigos.",
+      "category": "Globo",
+      "image": "assets/images/jigglypuff.png",
+     	"type": "Normal, Hada",
+      "raiting": 3,
+      "skill": "Encanto, Tenacidad",
+      "weakness": "Veneno, Acero"
+    },
+    {
+      "id": "pk-eevee",
+      "name": "Eevee",
+      "description": "Es el único pokémon que tiene muchas posibles evoluciones distintas qué pertenecen a diferentes tipos de elementos.",
+      "category": "Evolución",
+      "image": "assets/images/eevee.png",
+      "type": "Normal",
+      "raiting": 3,
+      "skill": "Fuga, Adaptable",
+      "weakness": "Lucha"
+    },
+    {
+      "id": "pk-meowth",
+      "name": "Meowth",
+      "description": "Es similar a un gato de la suerte japonés que forma parte del grupo de los antagonistas.",
+      "category": "Gato Araña",
+      "image": "assets/images/meowth.png",
+     	"type": "Normal",
+      "raiting": 3,
+      "skill": "Recogida, Experto",
+      "weakness": "Lucha"
+    },
+    {
+      "id": "pk-togepi",
+      "name": "Togepi",
+      "description": "Desprende un aura relajante que se hace más fuerte cuando se le trata con cariño.",
+      "category": "Bolaclavos",
+      "image": "assets/images/togepi.png",
+     	"type": "Hada",
+      "raiting": 3,
+      "skill": "Dicha, Entusiasmo",
+      "weakness": "Veneno, Acero"
+    },
+    {
+      "id": "pk-mewtwo",
+      "name": "Mewtwo",
+      "description": "Cuenta con una inteligencia avanzada y pelea con una combinación de psicoonda y una cuchara hecha de energía psíquica.",
+      "category": "Genético",
+      "image": "assets/images/mewtwo.png",
+      "type": "Psíquico",
+      "raiting": 3,
+      "skill": "Presión",
+      "weakness": "Bicho, Fantasma, Siniestro"
+    },
+    {
+      "id": "pk-piplup",
+      "name": "Piplup",
+      "description": "Es un pokémon muy orgulloso que muestra gran habilidad y destreza bajo el agua.",
+      "category": "Pingüino",
+      "image": "assets/images/piplup.png",
+      "type": "Agua",
+      "raiting": 3,
+      "skill": "Torrente",
+      "weakness": "Planta, Eléctrico"
+    },
+    {
+      "id": "pk-articuno",
+      "name": "Articuno",
+      "description": "Una de las aves legendarias. Es capaz de generar ventiscas congelando la humedad del aire.",
+      "category": "Congelar",
+      "image": "assets/images/articuno.png",
+      "type": "Hielo, Volador",
+      "raiting": 3,
+      "skill": "Presión",
+      "weakness": "Fuego, Eléctrico, Roca, Acero"
+    },
+    {
+      "id": "pk-pachirisu",
+      "name": "Pachirisu",
+      "description": "Posee bolsas de electricidad en las mejillas. Descarga por la cola la electricidad que acumula.",
+      "category": "Ardillalec",
+      "image": "assets/images/pachirisu.png",
+      "type": "Eléctrico",
+      "raiting": 3,
+      "skill": "Fuga, Recogida",
+      "weakness": "Tierra"
+    },
+    {
+      "id": "pk-butterfree",
+      "name": "Butterfree",
+      "description": "Adora el néctar de las flores. Una pequeña cantidad de polen le basta para localizar prados floridos.",
+      "category": "Mariposa",
+      "image": "assets/images/butterfree.png",
+      "type": "Bicho, Volador",
+      "raiting": 2,
+      "skill": "Ojo Compuesto",
+      "weakness": "Fuego, Eléctrico, Hielo, Volador, Roca"
+    },
+    {
+      "id": "pk-kangaskhan",
+      "name": "Kangaskhan",
+      "description": "Lleva una cría en el marsupio. Abruma al rival con ráfagas de ágiles puñetazos.",
+      "category": "Maternal",
+      "image": "assets/images/kangaskhan.png",
+      "type": "Normal",
+      "raiting": 2,
+      "skill": "Madrugar, Intrépido",
+      "weakness": "Lucha"
+    },
+    {
+      "id": "pk-chikorita",
+      "name": "Chikorita",
+      "description": "Le encanta tomar el sol. Usa la hoja que tiene en la cabeza para localizar sitios cálidos.",
+      "category": "Hoja",
+      "image": "assets/images/chikorita.png",
+      "type": "Planta",
+      "raiting": 2,
+      "skill": "Espesura",
+      "weakness": "Fuego, Hielo, Veneno, Volador, Bicho"
+    }    
+    
+    
+  ]
+}
