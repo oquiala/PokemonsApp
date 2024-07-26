@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PokemonsPrimeNg
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# PokemonsApp
+Frontend application using PrimeNg
+>>>>>>> 86c7f9a5929fd8a8923229ac1fce0e9b234cf062
